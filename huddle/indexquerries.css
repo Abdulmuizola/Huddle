@@ -1,0 +1,128 @@
+@media(max-width: 51.9em){
+    .subject{
+        gap: 10%;
+    }
+
+    .s-heading{
+        font-size: 3rem;
+    }
+
+    .s-span{
+        font-size: 1.2rem;
+    }
+
+    .s-button{
+        font-size: 1.2rem;
+    }
+
+    .g-img{
+        height: 30rem;
+    }
+
+    .pop-up{
+        display: none;
+    }
+}
+
+@media(max-width: 39em){
+    .main-logo{
+        width: 40%;
+    }
+
+    .s-heading{
+        font-size: 2.5rem;
+    }
+
+    .s-span{
+        font-size: 1rem;
+    }
+
+    .s-button{
+        font-size: 1rem;
+    }
+
+    .g-heading{
+        font-size: 2rem;
+    }
+
+    .g-info{
+        font-size: 1.2rem;
+    }
+
+    .g-img{
+        height: 20rem;
+    }
+
+    .footer-text{
+        gap: 2rem;
+    }
+
+    .grid-div{
+        column-gap: 2rem;
+    }
+
+    .row{
+        gap: 3rem;
+    }
+
+    .about{
+        font-size: 1.2rem;
+    }
+
+    .modal{
+        /* height: 80%; */
+        height: max-content;
+    }
+
+    .s-button{
+        margin-top: 3rem;
+    }
+
+    .title{
+        font-size: 4rem;
+    }
+
+    .inputs{
+        display: grid;
+        row-gap: 5%;
+        grid-template-columns: 1fr;
+    }
+}    
+
+@media(max-width: 29em){
+    .huddle{
+        background-image: url(/bg-hero-mobile.svg);
+    }
+
+    .subject{
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+        margin-top: 10%;
+    }
+
+    .subject-text{
+        gap: 1rem;
+    }
+
+    .grow{
+        flex-direction: column;
+    }
+
+    .footer-div{
+        padding: 18% 5%;
+    }
+
+    .row{
+        gap: 2rem;
+    }
+
+    .grid-div{
+        grid-template-columns: 1fr ;
+        row-gap: 5%;
+    }
+
+    .modal{
+        width: 80%;
+    }
+}

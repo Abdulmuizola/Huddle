@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: sans-serif;
+    position: relative;
+}
+
+.huddle{
+    background-image: url(/bg-hero-desktop.svg);
+    background-color: hsl(193, 100%, 96%); 
+    padding: 3%;
+    width: 100%;
+}
+
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-btn{
+    border: none;
+    background-color: white;
+    border-radius: 2rem;
+    padding: 1rem 3rem;
+    box-shadow: 0 1px 12px 5px rgba(0, 0, 0, 0.092);
+}
+
+.nav-btn:hover{
+    background-color: hsl(322, 100%, 66%);
+    transition: 0.5s;
+}
+
+.subject{
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    gap: 20%;
+}
+
+.subject-text{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.s-heading{
+    font-size: 5rem;
+}
+
+.s-span{
+    font-size: 1.5rem;
+}
+
+.s-button{
+    border: none;
+    background-color: hsl(322, 100%, 66%);
+    padding: 1rem 4rem;
+    border-radius: 2rem;
+    color: white;
+}
+
+.s-button:hover{
+    background-color: white;
+    color: hsl(322, 100%, 66%);
+    transition: 0.5s;
+}
+
+.s-img{
+    width: 100%;
+}
+
+.mid-section{
+    width: 100%;
+    padding: 10% 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.grow{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5%;
+    box-shadow: 0 1px 12px 5px rgba(0, 0, 0, 0.092);
+    border-radius: 1rem;
+}
+
+.grow-text{
+    width: 100%;
+}
+
+.g-heading{
+    font-size: 3rem;
+    margin-bottom: 3%;
+}
+
+.g-info{
+    font-size: 1.6rem;
+    color: hsl(208, 11%, 55%);
+}
+
+.grow-image{
+    width: 100%;
+}
+
+.g-img{
+    height: 40rem;
+    width: 100%;
+}
+
+.footer-div{
+    position: relative;
+    width: 100%;
+    margin-top: 10%;
+    background-color: hsl(192, 100%, 9%);
+    padding: 5%;
+}
+
+.pop-up{
+    position: absolute;
+    top: -20%;
+    left: 30%;
+    right: 30%;
+    box-shadow: 0 1px 12px 5px rgba(0, 0, 0, 0.092);
+    padding: 3% 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    background-color: white;
+    border-radius: 1rem;
+}
+
+.pop-text{
+    font-size: 2rem;
+}
+
+.footer-text{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.logo{
+    color: white;
+    font-size: 3rem;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.grid-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 3rem;
+}
+
+.row{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.each{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.about:visited, .about:link{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.713);
+    font-size: 1.6rem;
+    width: fit-content;
+}
+
+.social{
+    display: flex;
+    gap: 2rem;
+    color: rgba(255, 255, 255, 0.713);
+    font-size: 1.6rem;
+}
+
+.modal{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: hsl(192, 100%, 9%);
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3% 5%;
+    border-radius: 5px;
+    z-index: 999;
+    position: fixed;
+}
+
+.title{
+    font-size: 6rem;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Ronman', serif;
+    color: white;
+}
+
+.inputs{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 25%;
+    column-gap: 15%;
+    justify-content: center;
+    margin: 20% 0;
+    width: 100%;
+}
+
+.each-input{
+    width: 100%;
+    padding: 5% 10%;
+    border-radius: 1rem;
+    border: none;
+    outline: none;
+    font-size: 1.7rem;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.685);
+    z-index: 997;
+}
+
+.hidden{
+    display: none;
+}
